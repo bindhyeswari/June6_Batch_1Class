@@ -1,0 +1,63 @@
+
+  509  mkdir batch_June6
+  510  cd batch_June6
+  511  clear
+  512  ls
+  513  mkdir testinggit
+  514  cd testinggit
+  515  clear
+  516  pwd
+  517  ls -a
+  518  ls -artl
+  519  clear
+  520  ls
+  521  git init
+  522  ls -artl
+  523  rm -rf .git
+  524  clear
+  525  git init
+  526  touch test.txt
+  527  echo 'some info' >> test.txt
+  528  cat test.txt
+  529  vi test.txt
+  530  cat test.txt
+  531  cat test.txt
+  532  git add .
+  533  git log
+  534  clear
+  535  git commit
+  536  git log
+  537  echo 'add more data' >> test.txt
+  538  cat test.txt
+  539  git commit -a -m 'second commit'
+  540  clear
+  541  git log
+  542  history > commands.txt
+  543  open .
+  544  git branch
+  545  git remote add github git@github.com:pvtech/June6_Batch_1Class.git
+  546  git branch
+  547  git remote -v
+  548  git push github master
+  549  cd ..
+  550  clear
+  551  ls
+  552  rm -rf testinggit
+  553  clear
+  554  ls
+  555  git clone git@github.com:pvtech/June6_Batch_1Class.git
+  556  cd June*
+  557  cle3ar
+  558  clear
+  559  pwd
+  560  ls -artl
+  561  git log
+  562  echo 'asdfasdf' >> test.txt
+  563  git add .
+  564  git commit -m 'third commit'
+  565  git push origin master
+  566  git remote -v
+  567  clear
+  568  clear
+  569  ls
+  570  history > commands.txt
