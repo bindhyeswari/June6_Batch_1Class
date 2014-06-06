@@ -11,21 +11,21 @@
   518  ls -artl
   519  clear
   520  ls
-  521  git init # Initializes a git directory
+  521  git init 
   522  ls -artl
   523  rm -rf .git
   524  clear
-  525  git init
+  525  git init                           # Initializes a git directory
   526  touch test.txt
   527  echo 'some info' >> test.txt
   528  cat test.txt
   529  vi test.txt
   530  cat test.txt
   531  cat test.txt
-  532  git add .
+  532  git add .                          # Adds files to the staging area
   533  git log
   534  clear
-  535  git commit
+  535  git commit                         # Commit files -  will open up the vi editor
   536  git log
   537  echo 'add more data' >> test.txt
   538  cat test.txt
@@ -35,14 +35,14 @@
   542  history > commands.txt
   543  open .
   544  git branch
-  545  git remote add github git@github.com:pvtech/June6_Batch_1Class.git
+  545  git remote add github git@github.com:pvtech/June6_Batch_1Class.git       # Add a remote link to the repository
   546  git branch
   547  git remote -v
-  548  git push github master
+  548  git push github master             # Push all changes to the github repo
   549  cd ..
   550  clear
   551  ls
-  552  rm -rf testinggit
+  552  rm -rf testinggit                
   553  clear
   554  ls
   555  git clone git@github.com:pvtech/June6_Batch_1Class.git
