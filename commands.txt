@@ -11,7 +11,7 @@
   518  ls -artl
   519  clear
   520  ls
-  521  git init
+  521  git init # Initializes a git directory
   522  ls -artl
   523  rm -rf .git
   524  clear
